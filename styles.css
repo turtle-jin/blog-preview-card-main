@@ -65,10 +65,11 @@ body {
     font-weight: 600;
 } 
 
-.container > h1 {
+.container > a {
+    text-decoration: none;
+    color: var(--Black);
     font-size: 25px;
     font-weight: 800;
-    /* border: solid; */
 }
 
 .container p {
@@ -86,4 +87,11 @@ body {
 .profile > img {
     /* border: solid; */
     width: 40px;
+}
+.profile p {
+    color: var(--Black);
+    font-weight: 800;
+}
+a:hover {
+    color: var(--Yellow);
 }
